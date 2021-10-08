@@ -79,4 +79,4 @@ class ChoiceViewSet(ModelViewSet):
 class AnswerViewSet(ModelViewSet):
     queryset = Answer.objects.all()
     serializer_class = AnswerSerializer
-    # pagination_class = PageNumberPagination
+
